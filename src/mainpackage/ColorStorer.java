@@ -11,7 +11,7 @@ public class ColorStorer {
     final Color COLOR;
 
     ColorStorer(Color color) {
-        COLOR = color;
+        COLOR = color.brighter();
     }
 
 }
